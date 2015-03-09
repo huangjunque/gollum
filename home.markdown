@@ -6,7 +6,7 @@
 - [Network](Network)
 - [DNS](DNS)
 - [网络测试](Wang-Luo-Ce-Shi)
-- [F5测试](F5Ce-Shi)
+- [git](git)
 - [MFS](MFS)
 - [Nginx](Nginx)
 - [Backup](Backup)
