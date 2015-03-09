@@ -1,11 +1,7 @@
-# 立方网运维部门Wiki
+# 黄俊悫个人 Wiki
 
 ## 目录
 
-- [运维部门新同事须知] (Yun-Wei-Bu-Men-Xin-Tong-Shi-Xu-Zhi)
-- [运维工作](Yun-Wei-Gong-Zuo)
-- [模拟线上存储环境添加存储节点](Mo-Ni-Xian-Shang-Cun-Chu-Huan-Jing-Tian-Jia-Cun-Chu-Jie-Dian)
-- [fsmetalogger转为master流程](fsmetaloggerZhuan-Wei-masterLiu-Cheng)
 - [Operations](Operations)
 - [Network](Network)
 - [DNS](DNS)
