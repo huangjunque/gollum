@@ -2,7 +2,7 @@
 
 ## 目录
 
-- [Operations](Operations)
+- [VIM](VIM)
 - [Network](Network)
 - [DNS](DNS)
 - [网络测试](Wang-Luo-Ce-Shi)
