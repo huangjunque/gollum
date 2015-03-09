@@ -1,0 +1,56 @@
+[2015-03-09 14:21:40] INFO  WEBrick 1.3.1
+[2015-03-09 14:21:40] INFO  ruby 1.9.3 (2014-11-13) [x86_64-darwin13.4.0]
+== Sinatra/1.4.5 has taken the stage on 4567 for development with backup from WEBrick
+[2015-03-09 14:21:40] INFO  WEBrick::HTTPServer#start: pid=78854 port=4567
+localhost - - [09/Mar/2015:14:21:42 CST] "GET /Home HTTP/1.1" 302 0
+- -> /Home
+localhost - - [09/Mar/2015:14:21:42 CST] "GET /create/Home HTTP/1.1" 200 6600
+- -> /create/Home
+[2015-03-09 14:21:42] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2015-03-09 14:21:42] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2015-03-09 14:21:42] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+localhost - - [09/Mar/2015:14:21:42 CST] "GET /css/editor.css HTTP/1.1" 304 0
+localhost - - [09/Mar/2015:14:21:42 CST] "GET /css/template.css HTTP/1.1" 304 0
+[2015-03-09 14:21:42] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+http://127.0.0.1:4567/create/Home -> /css/editor.css
+[2015-03-09 14:21:42] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+localhost - - [09/Mar/2015:14:21:42 CST] "GET /css/gollum.css HTTP/1.1" 304 0
+localhost - - [09/Mar/2015:14:21:42 CST] "GET /css/print.css HTTP/1.1" 304 0
+http://127.0.0.1:4567/create/Home -> /css/print.css
+http://127.0.0.1:4567/create/Home -> /css/template.css
+[2015-03-09 14:21:42] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+http://127.0.0.1:4567/create/Home -> /css/gollum.css
+localhost - - [09/Mar/2015:14:21:42 CST] "GET /css/dialog.css HTTP/1.1" 304 0
+localhost - - [09/Mar/2015:14:21:42 CST] "GET /javascript/jquery-1.7.2.min.js HTTP/1.1" 304 0
+http://127.0.0.1:4567/create/Home -> /javascript/jquery-1.7.2.min.js
+http://127.0.0.1:4567/create/Home -> /css/dialog.css
+[2015-03-09 14:21:42] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2015-03-09 14:21:42] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2015-03-09 14:21:42] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2015-03-09 14:21:42] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+localhost - - [09/Mar/2015:14:21:42 CST] "GET /javascript/gollum.placeholder.js HTTP/1.1" 304 0
+http://127.0.0.1:4567/create/Home -> /javascript/gollum.placeholder.js
+localhost - - [09/Mar/2015:14:21:42 CST] "GET /javascript/gollum.js HTTP/1.1" 304 0
+localhost - - [09/Mar/2015:14:21:42 CST] "GET /javascript/mousetrap.min.js HTTP/1.1" 304 0
+[2015-03-09 14:21:42] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+http://127.0.0.1:4567/create/Home -> /javascript/gollum.js
+localhost - - [09/Mar/2015:14:21:42 CST] "GET /javascript/gollum.dialog.js HTTP/1.1" 304 0
+http://127.0.0.1:4567/create/Home -> /javascript/gollum.dialog.js
+http://127.0.0.1:4567/create/Home -> /javascript/mousetrap.min.js
+localhost - - [09/Mar/2015:14:21:42 CST] "GET /javascript/editor/gollum.editor.js HTTP/1.1" 304 0
+http://127.0.0.1:4567/create/Home -> /javascript/editor/gollum.editor.js
+localhost - - [09/Mar/2015:14:21:42 CST] "GET /javascript/editor/langs/markdown.js?_=1425882102416 HTTP/1.1" 200 11837
+http://127.0.0.1:4567/create/Home -> /javascript/editor/langs/markdown.js?_=1425882102416
+[2015-03-09 14:21:42] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+localhost - - [09/Mar/2015:14:21:42 CST] "GET /images/icon-sprite.png HTTP/1.1" 304 0
+http://127.0.0.1:4567/css/editor.css -> /images/icon-sprite.png
+localhost - - [09/Mar/2015:14:21:57 CST] "POST /create HTTP/1.1" 303 0
+http://127.0.0.1:4567/create/Home -> /create
+localhost - - [09/Mar/2015:14:21:57 CST] "GET /Home HTTP/1.1" 200 3601
+http://127.0.0.1:4567/create/Home -> /Home
+== Sinatra has ended his set (crowd applauds)
+[2015-03-09 14:22:23] INFO  going to shutdown ...
+[2015-03-09 14:22:23] INFO  WEBrick::HTTPServer#start done.
+nohup: gollum: No such file or directory
+nohup: gollum: No such file or directory
+nohup: gollum: No such file or directory
