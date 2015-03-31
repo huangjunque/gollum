@@ -1,7 +1,7 @@
----
-title: "find with xargs"
-date: 2015-03-31 10:11
----
+
+###title: "find with xargs"
+###date: 2015-03-31 10:11
+
 
 
 
@@ -51,7 +51,9 @@ In this situation, use the -print0 option with find command and -0 option with x
 
 - ls | xargs -I {} mv {} 20080815-{}
 
+```
 This works because {} is a placeholder meaning "the current argument". (You can use xxx or yyy or any other string instead of {} if you want, as well, and it'll do exactly the same thing.) -I implies -n1, because you want to act on each file individually.
 Or you might want to move all the files in directory 1 into directory 2:
+```
 
 - ls dir1 | xargs -I {} -t mv dir1/{} dir1/{}
