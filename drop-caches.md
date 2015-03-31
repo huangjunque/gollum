@@ -34,17 +34,27 @@ As this is a non-destructive operation, and dirty objects are notfreeable, the u
 This tunable was added in 2.6.16.
 ```
 
-###修改/etc/sysctl.conf 添加如下选项后就不会内存持续增加
-***
-vm.dirty_ratio = 1
-vm.dirty_background_ratio=1
-vm.dirty_writeback_centisecs=2
-vm.dirty_expire_centisecs=3
-vm.drop_caches=3
-vm.swappiness =100
-vm.vfs_cache_pressure=163
-vm.overcommit_memory=2
-vm.lowmem_reserve_ratio=32 32 8
-kern.maxvnodes=3
-***
+	$sync
+	$sudo sysctl -w vm.drop_caches=3
+	$sudo sysctl -w vm.drop_caches=0 #recovery drop_caches
+
+操作后可以通过sudo sysctl -a | grep drop_caches查看是否生效。
+
+3. 修改/proc/sys/vm/vfs_cache_pressure，调整清理inode/dentry caches的优先级（默认为100），LinuxInsight中有相关的解释：
+
+```
+At the default value of vfs_cache_pressure = 100 the kernel will attempt to reclaim dentries and inodes at a “fair” rate with respect to pagecache and swapcache reclaim. Decreasing vfs_cache_pressure causes the kernel to prefer to retain dentry and inode caches. Increasing vfs_cache_pressure beyond 100 causes the kernel to prefer to reclaim dentries and inodes.
+```
+
+具体的设置方法，可以参考方法1或者方法2均可。
+
+参考资料
+
+[kernel.org](https://www.kernel.org/doc/Documentation/sysctl/vm.txt)
+
+[major.io](http://major.io/2008/12/03/reducing-inode-and-dentry-caches-to-keep-oom-killer-at-bay/)
+
+[linix-mm](http://linux-mm.org/Drop_Caches)
+
+
 上面的设置比较粗暴，使cache的作用基本无法发挥。需要根据机器的状况进行适当的调节寻找最佳的折衷。
