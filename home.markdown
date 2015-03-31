@@ -69,45 +69,4 @@
 **服 务** |  [DNS](DNS) • [FTP](FTP) • [代码版本控制](Dai-Ma-Ban-Ben-Kong-Zhi) • [资产管理](Zi-Chan-Guan-Li) • [文件共享服务](Wen-Jian-Gong-Xiang-Fu-Wu) • [持续集成（暂无）](Chi-Xu-Ji-Cheng) • [用户管理系统LDAP（暂无）](Yong-Hu-Guan-Li-Xi-Tong-LDAP)•
 **项目**|[项目部署](Xiang-Mu-Bu-Shu) • [代码更新流程](code-updates-process)
 **备份**|
-**网络**| [网络拓扑](Network-topology) • [上网管理](Shang-Wang-Guan-Li) • [网络设备配置](Wang-Luo-She-Bei-Pei-Zhi) • [内网维护](Nei-Wang-Wei-Hu)
-**desktop support**|[同事入职/离职电脑部署流程](New-employee-orientation-process) • [Panabit上网策略使用说明](panabit-manual) • [上网行为管理--Centos安装OCS+GLPI流程](install-osc-glpi-on-centos) • [上网行为管理--新接入网络的电脑部署流程](The-Internet-behavior-management) • 
-**内网服务器系统账户口令**|[内网服务器账户口令](internal_secure) • [内网子系统](internal_subsystem) • |
 
-
-## Labs 实验室
-### Todos
-- 简化自动汇报racktables脚本，使其能够判断服务器制造商自动获取信息并提交
-- 通过ipmi获取超微服务器信息
-
-### 生产环境
-- 上线异地照片上传加速方案
-- 监控方案
-- 度量统计
-- 日志集中管理 & 实时分析
-- 备份（DB & FS）
-- HA & nginx
-- 架构遗留问题
-- NOC服务整理（199.210）
-- 部署管理平台开发（监控整合、度量）  
-  -支持sandbox环境
-- 配置集中化（运维）  
-    - salt客户端与服务端的注册，保证所有的服务器都在salt master管理  
-    - 线上重装系统后，ssh服务器配置，用户配置，防火墙，hosts等统一  
-    - puppet管理yum源  
-
-- 配置集中化（开发）  
-    - Xconfig
-    - Xdeployer
-
-### 内网环境
-- puppet管理（纳入配置集中化）
-- 文件共享服务（基本要求完成）
-- DNS管理
-- 备份
-- 项目部署
-- 上网管理
-- 资产管理 
-- 监控 （Nagios监控常见项目，预采用zabbix逐步替换）
-- 度量统计
-- 用户管理（目前正在1.16上进行部署openldap测试，正在整合samba和Redmine）
-- 邮件服务（逐步摆脱腾讯企业邮箱，预采用Postfix+ldap进行现有邮件的替换工作）
