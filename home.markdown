@@ -33,7 +33,7 @@
 
 
 
-## Production 生产环境
+## 分类
 
 类别|词条
 -----|-------|--------|
@@ -44,12 +44,7 @@
 **Datacenter 数据中心** |   [数据中心规范（暂无）](ShuShu Ju Zhong Xin Wei Hu Ri Zhi) • [数据中心维护日志（暂无） ](Shu Ju Zhong Xin Wei Hu Ri Zhi) • [数据中心迁移计划（14年5月）](Data-Center-Relocation) • 
 **Network 网络** |  [网络架构设计（暂无）](Wang Luo Jia Gou She Ji) • [802.1Q（暂无）](802.1Q)• [LVS](LVS) • [链路聚合（暂无）](Lian Lu Ju He) • [IRF（暂无）](IRF) • [BGP](BGP) • [F5 BIG-IP（暂无）](F5 BIG-IP) • [IP分配](IP-Addresses)
 **Applications 应用** |  [Webapp部署](WebappBu Shu) • [独立App部署（暂无）](Du Li AppBu Shu) • [应用依赖关系（暂无）](Ying Yong Yi Lai Guan Xi) • [App配置集中化管理（暂无）](AppPei Zhi Ji Zhong Hua Guan Li)• [App更新与部署](AppGeng Xin Yu Bu Shu)  •  [日志集中化](Ri-Zhi-Ji-Zhong-Hua)  •  [服务器优化](Fu-Wu-Qi-You-Hua)
-**Monitoring 监控** | [当前服务状态（暂无）](Dang Qian Fu Wu Zhuang Tai) • [Nagios](Nagios) • [nagios组织结构](nagios-Hierarchical-structure)• [nagios监控规范](nagios-specification)• [Sensu](Sensu)• [Zabbix（暂无）](Zabbix)• [IDC-smokeping](smokeping)
-**Metrics&Statistics 度量与数据统计** | [Dashing（暂无）](Dashing) • [jmxtrans（暂无）](jmxtrans) • [statsd（暂无）](statsd) • [Graphite](Graphite)
-**Maps 计划与映射** | [批量任务（暂无）](Pi-Liang-Ren-Wu) • [目录地址（暂无）](Mu-Lu-Di-Zhi) • [脚本（暂无）](Jiao-Ben)
-**Contact 联系**| [联系方式汇总](Lian-Xi-Fang-Shi-Hui-Zong)|
-**外网服务器系统账户口令**| • [外网子系统](external_subsystem) • [在线服务器账户口令](external-secure)|
-**Misc 其它**| [域名管理](Yu-Ming-Guan-Li) • |
+**LINUX TIPS** | [Linux basic](linux-baisc)
 
 
 ## 规范管理
